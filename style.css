@@ -13,8 +13,9 @@ html {
   /* adjust typography defaults */
   body {
     margin: 1rem;
-    font-family: sans-serif;
+    font-family: serif;
     line-height: 1.5;
+    background-color: black;
   }
   
   /* images and videos max out at full width */
