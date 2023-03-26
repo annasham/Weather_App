@@ -1,28 +1,60 @@
-  html{
-    background-color: #2342D6;
-  }
-  
   body {
-    font-family: sans-serif;
     line-height: 1.5;
-    justify-content: space-evenly;
-    flex-direction: column;
-    column-count: 2;
-    padding-left: 20px;
-    padding-top: 20px;
     margin: auto;
-    background: #2342D6;
-  }
-  
-  img,
-  video {
-    height: auto;
-    max-width: 100%;
+    font: 2rem/1.5 var(--bs-font-sans-serif);
   }
 
-  h1{
+  .body {
+    background-color: #F0F3F5;
+  }
+
+  #name{
     font-family: 'Inter';
     font-size: 24pt;
-    background-color: #2342D6;
-    color: #E3E1DE;
   }
+
+/* 
+  justify-content: space-evenly;
+  flex-direction: column;
+  column-count: 2; */
+
+  .nav{
+    background-color: white;
+    color: #4B5DFF;
+    font-size: 10pt;
+  }
+
+  .h3{
+    padding-left: 30px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-family: 'GTF Good Sans TRIAL';
+  }
+
+  .hero{
+    background-color:#4B5DFF;
+    width: auto;
+    height: 470px;
+  }
+
+  .hello{
+    font-family: 'GTF Good Sans TRIAL';
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 600px;
+    height: 112px;
+  }
+
+  .navigate{
+  color: white;
+  height: 24px;
+  width: 25.912500381469727px;
+  left: 200px;
+  top: 345px;
+  border-radius: 0px;
+}
