@@ -35,6 +35,7 @@
     background-color:#4B5DFF;
     width: auto;
     height: 470px;
+    padding-left: 200px;
   }
 
   .hello{
@@ -44,15 +45,61 @@
     font-size: 48px;
     line-height: 60px;
     position: absolute;
-    top: 200px;
-    left: 100px;
+    top: 190px;
     width: 600px;
     height: 112px;
   }
 
+  .location{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 250px;
+    gap: 10px;
+  }
+
   ion-icon{
     color: white;
-    font-size: 64px;
-    stroke-width: 16px;
-    height: 24px;
+    font-size: 24px;
 }
+
+  .place {
+    font-family: 'GTF Good Sans TRIAL';
+    color: white;
+    font-weight: 500;
+  }
+
+  #search {
+    margin-top: 20px;
+    display: flex;
+}
+
+  #searchInput {
+    display: inherit;
+    width: 50%;
+    padding: 1em 3.5em;
+    border-style: none;
+    height: 60px;
+    width: 544px;
+    left: 200px;
+    top: 404px;
+    border-radius: 30px;
+    background-image: url("/icons/search-outline.svg");
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 20px 1rem;
+  }
+
+  .localTemp{
+    background-color: white;
+    width: 400px;
+  }
+
+  .weekTemp{
+    width: auto;
+    position: absolute;
+    margin-top: 130px;
+    font-family: "GTF Good Sans TRIAL";
+    font-weight: 700;
+    font-size: 40px;
+    color:#4B5DFF;
+  }
