@@ -50,11 +50,9 @@
     height: 112px;
   }
 
-  .navigate{
-  color: white;
-  height: 24px;
-  width: 25.912500381469727px;
-  left: 200px;
-  top: 345px;
-  border-radius: 0px;
+  ion-icon{
+    color: white;
+    font-size: 64px;
+    stroke-width: 16px;
+    height: 24px;
 }
