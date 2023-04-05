@@ -5,7 +5,7 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
@@ -17,29 +17,61 @@
   <body class ="body">
 <!-- navigation -->
     <div class="nav">
-    <p class="h3">☁︎ weather.io</p>
+      <p class="h3">☁︎ weather.io</p>
     </div>
 <!-- banner -->
     <div class="hero">
-      <p class="hello">What's the weather like right now?
-    </p>
-     <div class="location">
-    <ion-icon name="navigate-outline"></ion-icon>
-      <p class="place">New York, NY</p>
-      </div>
-      <div id="container">
-        <div id="search">
-            <input id="searchInput" type="text" placeholder="Enter a city name (e.g. Hong Kong...)">
-        </div>
-    <div class="localTemp">
-      
-    </div>
-    </div>
-  <!-- section -->
 
-  <div class="weekTemp">
-    <p id="HeadingOne">7 Day Overview</p>
+      <p id="hello">What's the weather <br>like right now?</p>
+
+     <div class="location">
+        <ion-icon name="navigate-outline"></ion-icon>
+        <p id="place">New York, NY</p>
+     </div>
+
+    <!--search input-->
+            <input id="searchInput" type="text" placeholder="Enter a city name (e.g. Hong Kong...)">
+
+    </div>
+  <!-- section 1 -->
+
+  <div id="weekTemp">
+    <p id="HeadingOne">5 Day Overview</p>
   </div>
+
+    <div class="cardsGroup">
+
+      <div class="tempCard1">
+          <div class="card_Name">Today</div>
+          <div class="weatherIcon"></div>
+      </div>
+
+      <div class="tempCard2">
+        <div class="card_Name">Tomorrow</div>
+        <div class="weatherIcon"></div>
+    </div>
+
+    <div class="tempCard3">
+      <div class="card_Name">Tues</div>
+      <div class="weatherIcon"></div>
+  </div>
+
+    <div class="tempCard4">
+      <div class="card_Name">Wed</div>
+      <div class="weatherIcon"></div>
+  </div>
+
+  <div class="tempCard5">
+    <div class="card_Name">Thurs</div>
+    <div class="weatherIcon"></div>
+  </div>
+    </div>
+  
+    <div class="graph">
+      <p id="HeadingTwo">Weekly Temperature</p>
+    </div>
+
+  
 
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
