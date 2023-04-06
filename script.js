@@ -56,4 +56,4 @@ let weather = {
     } 
   });
 
-  weather.fetchWeather()
+  weather.fetchWeather();
