@@ -3,8 +3,8 @@
     background-image: url("Images/ny.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 2234px;
-    max-width: 3456px;
+    height: 100%:
+    width: 100%;
   }
 
   #name{
@@ -15,7 +15,6 @@
   .nav{
     background-color: white;
     font-size: 10pt;
-    width: 2000px;
     position: fixed;
     opacity: 95%;
     width: 3456px;
