@@ -1,13 +1,10 @@
-  body {
-    line-height: 1.5;
-    margin: auto;
-    font: 2rem/1.5 var(--bs-font-sans-serif);
-  }
 
   .body {
     background-image: url("Images/ny.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    max-height: 2234px;
+    max-width: 3456px;
   }
 
   #name{
@@ -18,9 +15,10 @@
   .nav{
     background-color: white;
     font-size: 10pt;
-    width: 1728px;
+    width: 2000px;
     position: fixed;
     opacity: 95%;
+    width: 3456px;
   }
 
   .time{
@@ -43,6 +41,7 @@
     font-family: 'GTF Good Sans TRIAL';
     font-weight: 700;
     font-style: normal;
+    font-size: 29px;
   }
 
   .weather.loading{
