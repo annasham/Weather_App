@@ -20,58 +20,40 @@
       <p class="h3">☁︎ weather.io</p>
     </div>
 <!-- banner -->
+<div class="container">
+  
     <div class="hero">
 
       <p id="hello">What's the weather <br>like right now?</p>
 
-     <div class="location">
-        <ion-icon name="navigate-outline"></ion-icon>
-        <p id="place">New York, NY</p>
-     </div>
+      <br>
 
-    <!--search input-->
-            <input id="searchInput" type="text" placeholder="Enter a city name (e.g. Hong Kong...)">
-
-    </div>
-  <!-- section 1 -->
-
-  <div id="weekTemp">
-    <p id="HeadingOne">5 Day Overview</p>
-  </div>
-
-    <div class="cardsGroup">
-
-      <div class="tempCard1">
-          <div class="card_Name">Today</div>
-          <div class="weatherIcon"></div>
+      <div class="search">
+      <input id="searchInput" type="text" class="search-bar" placeholder="Enter a city name (e.g. Hong Kong...)">
+      <button><ion-icon name="search-outline"></ion-icon></button>
       </div>
 
-      <div class="tempCard2">
-        <div class="card_Name">Tomorrow</div>
-        <div class="weatherIcon"></div>
     </div>
 
-    <div class="tempCard3">
-      <div class="card_Name">Tues</div>
-      <div class="weatherIcon"></div>
-  </div>
-
-    <div class="tempCard4">
-      <div class="card_Name">Wed</div>
-      <div class="weatherIcon"></div>
-  </div>
-
-  <div class="tempCard5">
-    <div class="card_Name">Thurs</div>
-    <div class="weatherIcon"></div>
-  </div>
-    </div>
-  
-    <div class="graph">
-      <p id="HeadingTwo">Weekly Temperature</p>
+    <div class="card">
+      <div class="time"></div>
+      <br>
+      <div class="weather loading">
+        <div class="container2">
+          <h2 class="city">Weather in <br>Manhattan</h2>
+          <div class="temp">45ºF</div>
+        </div>
+        <br>
+      <div class="flex">
+        <div class="description">Cloudy</div>
+        <img src="" alt="" class="icon" />
+      </div>
+        <div class="humidity">Humidity: 30%</div>
+        <div class="wind">Wind speed: 6.2km/hr</div>
+      </div> 
     </div>
 
-  
+</div>
 
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
