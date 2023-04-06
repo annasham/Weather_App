@@ -1,9 +1,9 @@
 
   .body {
     background-image: url("Images/ny.jpg");
-    background-size: cover;
+    background-size: 1728px 2000px;
     background-repeat: no-repeat;
-    height: 100%:
+    height: 100%;
     width: 100%;
   }
 
@@ -71,11 +71,14 @@
     color:#4B5DFF;
   }
 
-  .h3{
+  .productName{
     padding-left: 30px;
     padding-top: 24px;
     padding-bottom: 25px;
     font-family: 'GTF Good Sans TRIAL';
+    font-weight: 500;
+    font-size: 26px;
+    color:#4B5DFF;
   }
 
   .container{
@@ -106,9 +109,13 @@
 
   button{
     border: none;
+    border-radius: 15%;
+    stroke-width: 2;
     margin: 0.5em;
-    height: 2.5em;
-    width: 2.5em;
+    height: 3em;
+    width: 3em;
+    color: white;
+    background-color: #4B5DFF;
   }
 
   #hello{
@@ -128,7 +135,6 @@
     border-style: none;
     padding: 30px;
   }
-
 
   #HeadingOne{
     padding-left: 202px;
